@@ -1874,4 +1874,459 @@ Successfully verified proof!
 [1m[7m%[27m[1m[0m                                                                                                                                     ]2;flyingnobita@Jan-MacBook-Pro:~/Data/Project/zk/succinctlabs/sp1-keccak-compare/script]1;..ompare/script]7;file://Jan-MacBook-Pro.local/Users/flyingnobita/Data/Project/zk/succinctlabs/sp1-keccak-compare/script\[0m[27m[24m[J[0m[38;5;238m[49m[39m
 
 [A[38;5;238m╭─[0m[38;5;238m[48;5;234m[38;5;31m [1m[38;5;31m[48;5;234m[38;5;39m~[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/Data/Project/zk/succinctlabs/[1m[38;5;31m[48;5;234m[38;5;39msp1-keccak-compare[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/[1m[38;5;31m[48;5;234m[38;5;39mscript[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m[0m[38;5;31m[48;5;234m[48;5;234m[38;5;31m [0m[38;5;31m[48;5;234m[48;5;234m[38;5;242m[0m[38;5;242m[48;5;234m[48;5;234m[38;5;76m [38;5;76mmain [38;5;39m?13[0m[38;5;39m[48;5;234m[48;5;234m[38;5;76m [0m[38;5;76m[48;5;234m[49m[38;5;234m[0m[38;5;234m[49m[39m                                                [0m[49m[38;5;234m[0m[38;5;234m[48;5;234m[38;5;70m [0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m✔[0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m [0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m[0m[38;5;70m[48;5;234m[48;5;234m[38;5;248m[38;5;242m[0m[38;5;242m[48;5;234m[48;5;234m[38;5;248m 12s[0m[38;5;248m[48;5;234m[48;5;234m[38;5;248m[0m[38;5;248m[48;5;234m[48;5;234m[38;5;248m [0m[38;5;248m[48;5;234m[49m[39m[38;5;238m─╮
-[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[127C[0m[49m[39m[38;5;238m─╯[39m[129D[?1h=[?2004h
+[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[127C[0m[49m[39m[38;5;238m─╯[39m[129D[?1h=[?2004h[?1l>[?2004l[?25l[A[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m [K[?25h
+[1m[7m%[27m[1m[0m                                                                                                                                     ]2;flyingnobita@Jan-MacBook-Pro:~/Data/Project/zk/succinctlabs/sp1-keccak-compare/script]1;..ompare/script]7;file://Jan-MacBook-Pro.local/Users/flyingnobita/Data/Project/zk/succinctlabs/sp1-keccak-compare/script\[0m[27m[24m[J[0m[38;5;238m[49m[39m
+
+[A[38;5;238m╭─[0m[38;5;238m[48;5;234m[38;5;31m [1m[38;5;31m[48;5;234m[38;5;39m~[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/Data/Project/zk/succinctlabs/[1m[38;5;31m[48;5;234m[38;5;39msp1-keccak-compare[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/[1m[38;5;31m[48;5;234m[38;5;39mscript[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m[0m[38;5;31m[48;5;234m[48;5;234m[38;5;31m [0m[38;5;31m[48;5;234m[48;5;234m[38;5;242m[0m[38;5;242m[48;5;234m[48;5;234m[38;5;178m [38;5;76mmain [38;5;178m!2[0m[38;5;178m[48;5;234m[48;5;234m[38;5;178m [0m[38;5;178m[48;5;234m[49m[38;5;234m[0m[38;5;234m[49m[39m                                                       [0m[49m[38;5;234m[0m[38;5;234m[48;5;234m[38;5;70m [0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m✔[0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m [0m[38;5;70m[48;5;234m[49m[39m[38;5;238m─╮
+[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[127C[0m[49m[39m[38;5;238m─╯[39m[129D[?1h=[?2004h[?1l>[?2004l[?25l[A[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m [K[?25h
+[1m[7m%[27m[1m[0m                                                                                                                                     ]2;flyingnobita@Jan-MacBook-Pro:~/Data/Project/zk/succinctlabs/sp1-keccak-compare/script]1;..ompare/script]7;file://Jan-MacBook-Pro.local/Users/flyingnobita/Data/Project/zk/succinctlabs/sp1-keccak-compare/script\[0m[27m[24m[J[0m[38;5;238m[49m[39m
+
+[A[38;5;238m╭─[0m[38;5;238m[48;5;234m[38;5;31m [1m[38;5;31m[48;5;234m[38;5;39m~[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/Data/Project/zk/succinctlabs/[1m[38;5;31m[48;5;234m[38;5;39msp1-keccak-compare[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/[1m[38;5;31m[48;5;234m[38;5;39mscript[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m[0m[38;5;31m[48;5;234m[48;5;234m[38;5;31m [0m[38;5;31m[48;5;234m[48;5;234m[38;5;242m[0m[38;5;242m[48;5;234m[48;5;234m[38;5;178m [38;5;76mmain [38;5;178m!2[0m[38;5;178m[48;5;234m[48;5;234m[38;5;178m [0m[38;5;178m[48;5;234m[49m[38;5;234m[0m[38;5;234m[49m[39m                                                       [0m[49m[38;5;234m[0m[38;5;234m[48;5;234m[38;5;70m [0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m✔[0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m [0m[38;5;70m[48;5;234m[49m[39m[38;5;238m─╮
+[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[127C[0m[49m[39m[38;5;238m─╯[39m[129D[?1h=[?2004hcargo prove build[17D[32mc[32ma[32mr[32mg[32mo[39m[7C[4mb[4mu[4mi[4ml[4md[24m[17D[32mg[32mi[32mt[32m [32mr[39memote a[4md[4md[4m [4mo[4mr[24migin git@github.com:flyingnobita/sp1-keccak-compare.git
+git branch -M main[K
+git push -u origin main[K[A[A[52C[70D[32mt[39m[39m [39mr[7C[24md[24md[24m [24mo[24mr[1B[32mg[32mi[32mt[39m[1B[32mg[32mi[32mt[39m[A[A[72C[68Dinit                                                                [1B[K[1B[K[A[A[11C[8D[32ml[32ml[39m[39m      [32mr[32mm[39m -rf .git[11D[32ml[32ml[39m         [9D[32mg[32mi[39mt remote add origin git@github.com:flyingnobita/sp1-keccak-compare.git[1Bgit branch -M main[K[1Bgit push -u origin main[K[A[A[52C[72D[32mg[32mi[32mt[39m[1B[32mg[32mi[32mt[39m[1B[32mg[32mi[32mt[39m[A[A[72C[72D[32mR[32mU[32mS[39mT_LOG=info cargo run --release -- --prove                            [1B[K[1B[K[A[A[47C[44D[39mR[39mU[39mS[11C[32mc[32ma[32mr[32mg[32mo[39m[25Cexecuteprove  execute[?1l>[?2004l[?25l[A[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m RUST_LOG=info [32mcargo[39m run --release -- --execute[K[?25h
+]2;RUST_LOG=info cargo run --release -- --execute]1;cargo[1m[32m   Compiling[0m keccak-compare-script v0.1.0 (/Users/flyingnobita/Data/Project/zk/succinctlabs/sp1-keccak-compare/script)
+[1m[36m    Building[0m [=======================> ] 727/729: keccak-compare-script(build)                                                     [K[1m[33mwarning[0m[1m:[0m keccak-compare-script@0.1.0: keccak-compare-program built at 2024-10-24 21:25:34
+[1m[36m    Building[0m [=======================> ] 728/729: main(bin)                                                                        [K[1m[32m    Finished[0m ]8;;https://doc.rust-lang.org/cargo/reference/profiles.html#default-profiles\`release` profile [optimized]]8;;\ target(s) in 3.11s
+[1m[32m     Running[0m `/Users/flyingnobita/Data/Project/zk/succinctlabs/sp1-keccak-compare/target/release/main --execute`
+[2m2024-10-24T13:25:36.840834Z[0m [32m INFO[0m vk verification: true
+[2m2024-10-24T13:25:37.528469Z[0m [32m INFO[0m [1mexecute[0m: close [3mtime.busy[0m[2m=[0m621ms [3mtime.idle[0m[2m=[0m3.00µs
+Program executed successfully.
+Number of cycles: 16718623
+[1m[7m%[27m[1m[0m                                                                                                                                     ]2;flyingnobita@Jan-MacBook-Pro:~/Data/Project/zk/succinctlabs/sp1-keccak-compare/script]1;..ompare/script]7;file://Jan-MacBook-Pro.local/Users/flyingnobita/Data/Project/zk/succinctlabs/sp1-keccak-compare/script\[0m[27m[24m[J[0m[38;5;238m[49m[39m
+
+[A[38;5;238m╭─[0m[38;5;238m[48;5;234m[38;5;31m [1m[38;5;31m[48;5;234m[38;5;39m~[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/Data/Project/zk/succinctlabs/[1m[38;5;31m[48;5;234m[38;5;39msp1-keccak-compare[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/[1m[38;5;31m[48;5;234m[38;5;39mscript[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m[0m[38;5;31m[48;5;234m[48;5;234m[38;5;31m [0m[38;5;31m[48;5;234m[48;5;234m[38;5;242m[0m[38;5;242m[48;5;234m[48;5;234m[38;5;178m [38;5;76mmain [38;5;178m!3[0m[38;5;178m[48;5;234m[48;5;234m[38;5;178m [0m[38;5;178m[48;5;234m[49m[38;5;234m[0m[38;5;234m[49m[39m                                                  [0m[49m[38;5;234m[0m[38;5;234m[48;5;234m[38;5;70m [0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m✔[0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m [0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m[0m[38;5;70m[48;5;234m[48;5;234m[38;5;248m[38;5;242m[0m[38;5;242m[48;5;234m[48;5;234m[38;5;248m 5s[0m[38;5;248m[48;5;234m[48;5;234m[38;5;248m[0m[38;5;248m[48;5;234m[48;5;234m[38;5;248m [0m[38;5;248m[48;5;234m[49m[39m[38;5;238m─╮
+[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[127C[0m[49m[39m[38;5;238m─╯[39m[129D[?1h=[?2004hRUST_LOG=info cargo run --release -- --execute[32D[32mc[32ma[32mr[32mg[32mo[39m[27C[46Dcargo prove bu[32mi[32ml[32md[39m[39m [39m                            [29D[17D[32mc[32ma[32mr[32mg[32mo[39m[7C[4mb[4mu[39m[4mi[39m[4ml[39m[4md[24m[17D[32mg[32mi[32mt[32m [32mr[39memote a[4md[4md[4m [4mo[4mr[24migin git@github.com:flyingnobita/sp1-keccak-compare.git
+git branch -M main[K
+git push -u origin main[K[A[A[52C[70D[32mt[39m[39m [39mr[7C[24md[24md[24m [24mo[24mr[1B[32mg[32mi[32mt[39m[1B[32mg[32mi[32mt[39m[A[A[72C[68Dinit                                                                [1B[K[1B[K[A[A[11C[8D[32ml[32ml[39m[39m      [32mr[32mm[39m -rf .git[11D[32ml[32ml[39m         [9D[32mg[32mi[39mt remote add origin git@github.com:flyingnobita/sp1-keccak-compare.git[1Bgit branch -M main[K[1Bgit push -u origin main[K[A[A[52C[72D[32mg[32mi[32mt[39m[1B[32mg[32mi[32mt[39m[1B[32mg[32mi[32mt[39m[A[A[72C[72D[32mR[32mU[32mS[39mT_LOG=info cargo run --release -- --prove                            [1B[K[1B[K[A[A[47C[44D[39mR[39mU[39mS[11C[32mc[32ma[32mr[32mg[32mo[39m[25Cexecuteprove  [?1l>[?2004l[?25l[A[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m RUST_LOG=info [32mcargo[39m run --release -- --prove[K[?25h
+]2;RUST_LOG=info cargo run --release -- --prove]1;cargo[1m[33mwarning[0m[1m:[0m keccak-compare-script@0.1.0: keccak-compare-program built at 2024-10-24 21:25:34
+[1m[32m    Finished[0m ]8;;https://doc.rust-lang.org/cargo/reference/profiles.html#default-profiles\`release` profile [optimized]]8;;\ target(s) in 0.28s
+[1m[32m     Running[0m `/Users/flyingnobita/Data/Project/zk/succinctlabs/sp1-keccak-compare/target/release/main --prove`
+[2m2024-10-24T13:25:45.577820Z[0m [32m INFO[0m vk verification: true
+[2m2024-10-24T13:25:46.283149Z[0m [32m INFO[0m [1mprove_core[0m:[1mclone[0m: close [3mtime.busy[0m[2m=[0m7.08µs [3mtime.idle[0m[2m=[0m1.00µs
+[2m2024-10-24T13:25:46.331891Z[0m [32m INFO[0m [1mprove_core[0m:[1mexecute[0m: close [3mtime.busy[0m[2m=[0m48.7ms [3mtime.idle[0m[2m=[0m917ns
+[2m2024-10-24T13:25:46.332184Z[0m [32m INFO[0m [1mprove_core[0m:[1mcreate memory checkpoint[0m: close [3mtime.busy[0m[2m=[0m261µs [3mtime.idle[0m[2m=[0m1.00µs
+[2m2024-10-24T13:25:46.332813Z[0m [32m INFO[0m [1mprove_core[0m:[1mclone[0m: close [3mtime.busy[0m[2m=[0m15.1µs [3mtime.idle[0m[2m=[0m542ns
+[2m2024-10-24T13:25:46.381756Z[0m [32m INFO[0m [1mprove_core[0m:[1mexecute[0m: close [3mtime.busy[0m[2m=[0m48.9ms [3mtime.idle[0m[2m=[0m1.29µs
+[2m2024-10-24T13:25:46.382276Z[0m [32m INFO[0m [1mprove_core[0m:[1mcreate memory checkpoint[0m: close [3mtime.busy[0m[2m=[0m491µs [3mtime.idle[0m[2m=[0m2.88µs
+[2m2024-10-24T13:25:46.382950Z[0m [32m INFO[0m [1mprove_core[0m:[1mclone[0m: close [3mtime.busy[0m[2m=[0m9.12µs [3mtime.idle[0m[2m=[0m333ns
+[2m2024-10-24T13:25:46.431935Z[0m [32m INFO[0m [1mprove_core[0m:[1mexecute[0m: close [3mtime.busy[0m[2m=[0m49.0ms [3mtime.idle[0m[2m=[0m1.00µs
+[2m2024-10-24T13:25:46.432341Z[0m [32m INFO[0m [1mprove_core[0m:[1mcreate memory checkpoint[0m: close [3mtime.busy[0m[2m=[0m370µs [3mtime.idle[0m[2m=[0m1.46µs
+[2m2024-10-24T13:25:46.432967Z[0m [32m INFO[0m [1mprove_core[0m:[1mclone[0m: close [3mtime.busy[0m[2m=[0m5.54µs [3mtime.idle[0m[2m=[0m417ns
+[2m2024-10-24T13:25:46.482291Z[0m [32m INFO[0m [1mprove_core[0m:[1mexecute[0m: close [3mtime.busy[0m[2m=[0m49.3ms [3mtime.idle[0m[2m=[0m1.00µs
+[2m2024-10-24T13:25:46.482734Z[0m [32m INFO[0m [1mprove_core[0m:[1mcreate memory checkpoint[0m: close [3mtime.busy[0m[2m=[0m412µs [3mtime.idle[0m[2m=[0m1.29µs
+[2m2024-10-24T13:25:46.483340Z[0m [32m INFO[0m [1mprove_core[0m:[1mclone[0m: close [3mtime.busy[0m[2m=[0m5.25µs [3mtime.idle[0m[2m=[0m333ns
+[2m2024-10-24T13:25:46.533223Z[0m [32m INFO[0m [1mprove_core[0m:[1mexecute[0m: close [3mtime.busy[0m[2m=[0m49.9ms [3mtime.idle[0m[2m=[0m1.17µs
+[2m2024-10-24T13:25:46.533636Z[0m [32m INFO[0m [1mprove_core[0m:[1mcreate memory checkpoint[0m: close [3mtime.busy[0m[2m=[0m387µs [3mtime.idle[0m[2m=[0m1.50µs
+[2m2024-10-24T13:25:46.534294Z[0m [32m INFO[0m [1mprove_core[0m:[1mclone[0m: close [3mtime.busy[0m[2m=[0m14.0µs [3mtime.idle[0m[2m=[0m459ns
+[2m2024-10-24T13:25:46.583089Z[0m [32m INFO[0m [1mprove_core[0m:[1mexecute[0m: close [3mtime.busy[0m[2m=[0m48.8ms [3mtime.idle[0m[2m=[0m1.12µs
+[2m2024-10-24T13:25:46.583475Z[0m [32m INFO[0m [1mprove_core[0m:[1mcreate memory checkpoint[0m: close [3mtime.busy[0m[2m=[0m363µs [3mtime.idle[0m[2m=[0m1.13µs
+[2m2024-10-24T13:25:46.585365Z[0m [32m INFO[0m [1mprove_core[0m:[1mclone[0m: close [3mtime.busy[0m[2m=[0m29.9µs [3mtime.idle[0m[2m=[0m1.12µs
+[2m2024-10-24T13:25:46.635261Z[0m [32m INFO[0m [1mprove_core[0m:[1mexecute[0m: close [3mtime.busy[0m[2m=[0m49.9ms [3mtime.idle[0m[2m=[0m1.04µs
+[2m2024-10-24T13:25:46.635573Z[0m [32m INFO[0m [1mprove_core[0m:[1mcreate memory checkpoint[0m: close [3mtime.busy[0m[2m=[0m293µs [3mtime.idle[0m[2m=[0m834ns
+[2m2024-10-24T13:25:46.636178Z[0m [32m INFO[0m [1mprove_core[0m:[1mclone[0m: close [3mtime.busy[0m[2m=[0m20.7µs [3mtime.idle[0m[2m=[0m458ns
+[2m2024-10-24T13:25:46.686624Z[0m [32m INFO[0m [1mprove_core[0m:[1mexecute[0m: close [3mtime.busy[0m[2m=[0m50.4ms [3mtime.idle[0m[2m=[0m833ns
+[2m2024-10-24T13:25:46.686970Z[0m [32m INFO[0m [1mprove_core[0m:[1mcreate memory checkpoint[0m: close [3mtime.busy[0m[2m=[0m317µs [3mtime.idle[0m[2m=[0m4.00µs
+[2m2024-10-24T13:25:46.687782Z[0m [32m INFO[0m [1mprove_core[0m:[1mclone[0m: close [3mtime.busy[0m[2m=[0m22.8µs [3mtime.idle[0m[2m=[0m751ns
+[2m2024-10-24T13:25:46.738481Z[0m [32m INFO[0m [1mprove_core[0m:[1mexecute[0m: close [3mtime.busy[0m[2m=[0m50.7ms [3mtime.idle[0m[2m=[0m791ns
+[2m2024-10-24T13:25:46.738720Z[0m [32m INFO[0m [1mprove_core[0m:[1mcreate memory checkpoint[0m: close [3mtime.busy[0m[2m=[0m209µs [3mtime.idle[0m[2m=[0m1.62µs
+[2m2024-10-24T13:25:46.739390Z[0m [32m INFO[0m [1mprove_core[0m:[1mclone[0m: close [3mtime.busy[0m[2m=[0m8.67µs [3mtime.idle[0m[2m=[0m666ns
+[2m2024-10-24T13:25:46.789417Z[0m [32m INFO[0m [1mprove_core[0m:[1mexecute[0m: close [3mtime.busy[0m[2m=[0m50.0ms [3mtime.idle[0m[2m=[0m1.00µs
+[2m2024-10-24T13:25:46.790089Z[0m [32m INFO[0m [1mprove_core[0m:[1mcreate memory checkpoint[0m: close [3mtime.busy[0m[2m=[0m641µs [3mtime.idle[0m[2m=[0m1.42µs
+[2m2024-10-24T13:25:46.790880Z[0m [32m INFO[0m [1mprove_core[0m:[1mclone[0m: close [3mtime.busy[0m[2m=[0m5.92µs [3mtime.idle[0m[2m=[0m667ns
+[2m2024-10-24T13:25:46.817628Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:25:46.817646Z[0m [32m INFO[0m [1mprove_core[0m: waiting for turn 0    
+[2m2024-10-24T13:25:46.817679Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+[2m2024-10-24T13:25:46.817681Z[0m [32m INFO[0m [1mprove_core[0m: collecting checkpoints    
+[2m2024-10-24T13:25:46.817685Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:25:46.817725Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:25:46.841554Z[0m [32m INFO[0m [1mprove_core[0m:[1mexecute[0m: close [3mtime.busy[0m[2m=[0m50.7ms [3mtime.idle[0m[2m=[0m1.33µs
+[2m2024-10-24T13:25:46.842187Z[0m [32m INFO[0m [1mprove_core[0m:[1mcreate memory checkpoint[0m: close [3mtime.busy[0m[2m=[0m597µs [3mtime.idle[0m[2m=[0m1.75µs
+[2m2024-10-24T13:25:46.848408Z[0m [32m INFO[0m [1mprove_core[0m:[1mclone[0m: close [3mtime.busy[0m[2m=[0m26.9µs [3mtime.idle[0m[2m=[0m1.96µs
+[2m2024-10-24T13:25:46.897998Z[0m [32m INFO[0m [1mprove_core[0m:[1mexecute[0m: close [3mtime.busy[0m[2m=[0m49.6ms [3mtime.idle[0m[2m=[0m1.46µs
+[2m2024-10-24T13:25:46.899963Z[0m [32m INFO[0m [1mprove_core[0m:[1mcreate memory checkpoint[0m: close [3mtime.busy[0m[2m=[0m1.94ms [3mtime.idle[0m[2m=[0m1.58µs
+[2m2024-10-24T13:25:46.905787Z[0m [32m INFO[0m [1mprove_core[0m:[1mclone[0m: close [3mtime.busy[0m[2m=[0m35.2µs [3mtime.idle[0m[2m=[0m2.08µs
+[2m2024-10-24T13:25:46.959683Z[0m [32m INFO[0m [1mprove_core[0m:[1mexecute[0m: close [3mtime.busy[0m[2m=[0m53.9ms [3mtime.idle[0m[2m=[0m1.38µs
+[2m2024-10-24T13:25:46.960248Z[0m [32m INFO[0m [1mprove_core[0m:[1mcreate memory checkpoint[0m: close [3mtime.busy[0m[2m=[0m532µs [3mtime.idle[0m[2m=[0m2.38µs
+[2m2024-10-24T13:25:46.961576Z[0m [32m INFO[0m [1mprove_core[0m:[1mclone[0m: close [3mtime.busy[0m[2m=[0m21.0µs [3mtime.idle[0m[2m=[0m4.29µs
+[2m2024-10-24T13:25:47.019715Z[0m [32m INFO[0m [1mprove_core[0m:[1mexecute[0m: close [3mtime.busy[0m[2m=[0m58.1ms [3mtime.idle[0m[2m=[0m1.50µs
+[2m2024-10-24T13:25:47.020055Z[0m [32m INFO[0m [1mprove_core[0m:[1mcreate memory checkpoint[0m: close [3mtime.busy[0m[2m=[0m302µs [3mtime.idle[0m[2m=[0m1.75µs
+[2m2024-10-24T13:25:47.021492Z[0m [32m INFO[0m [1mprove_core[0m:[1mclone[0m: close [3mtime.busy[0m[2m=[0m11.1µs [3mtime.idle[0m[2m=[0m1.75µs
+[2m2024-10-24T13:25:47.071804Z[0m [32m INFO[0m [1mprove_core[0m:[1mexecute[0m: close [3mtime.busy[0m[2m=[0m50.2ms [3mtime.idle[0m[2m=[0m1.25µs
+[2m2024-10-24T13:25:47.072318Z[0m [32m INFO[0m [1mprove_core[0m:[1mcreate memory checkpoint[0m: close [3mtime.busy[0m[2m=[0m482µs [3mtime.idle[0m[2m=[0m1.50µs
+[2m2024-10-24T13:25:47.083906Z[0m [32m INFO[0m [1mprove_core[0m:[1mclone[0m: close [3mtime.busy[0m[2m=[0m8.62µs [3mtime.idle[0m[2m=[0m1.79µs
+[2m2024-10-24T13:25:47.135072Z[0m [32m INFO[0m [1mprove_core[0m:[1mexecute[0m: close [3mtime.busy[0m[2m=[0m51.1ms [3mtime.idle[0m[2m=[0m1.21µs
+[2m2024-10-24T13:25:47.136277Z[0m [32m INFO[0m [1mprove_core[0m:[1mcreate memory checkpoint[0m: close [3mtime.busy[0m[2m=[0m1.17ms [3mtime.idle[0m[2m=[0m1.92µs
+[2m2024-10-24T13:25:47.728358Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:25:47.728385Z[0m [32m INFO[0m [1mprove_core[0m: waiting for turn 1    
+[2m2024-10-24T13:25:47.728396Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+[2m2024-10-24T13:25:47.728398Z[0m [32m INFO[0m [1mprove_core[0m: collecting checkpoints    
+[2m2024-10-24T13:25:47.728401Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:25:47.728439Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:25:48.595166Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:25:48.595189Z[0m [32m INFO[0m [1mprove_core[0m: waiting for turn 2    
+[2m2024-10-24T13:25:48.595203Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+[2m2024-10-24T13:25:48.595206Z[0m [32m INFO[0m [1mprove_core[0m: collecting checkpoints    
+[2m2024-10-24T13:25:48.595208Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:25:48.595227Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:25:49.392582Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:25:49.392606Z[0m [32m INFO[0m [1mprove_core[0m: waiting for turn 3    
+[2m2024-10-24T13:25:49.392617Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+[2m2024-10-24T13:25:49.392619Z[0m [32m INFO[0m [1mprove_core[0m: collecting checkpoints    
+[2m2024-10-24T13:25:49.392622Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:25:49.392640Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:25:50.873167Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:25:50.873189Z[0m [32m INFO[0m [1mprove_core[0m: waiting for turn 4    
+[2m2024-10-24T13:25:50.873199Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+[2m2024-10-24T13:25:50.873202Z[0m [32m INFO[0m [1mprove_core[0m: collecting checkpoints    
+[2m2024-10-24T13:25:50.873204Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:25:50.873223Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:25:52.287322Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:25:52.287350Z[0m [32m INFO[0m [1mprove_core[0m: waiting for turn 5    
+[2m2024-10-24T13:25:52.287360Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+[2m2024-10-24T13:25:52.287363Z[0m [32m INFO[0m [1mprove_core[0m: collecting checkpoints    
+[2m2024-10-24T13:25:52.287365Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:25:52.287383Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:25:53.698660Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:25:53.698687Z[0m [32m INFO[0m [1mprove_core[0m: waiting for turn 6    
+[2m2024-10-24T13:25:53.698698Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+[2m2024-10-24T13:25:53.698700Z[0m [32m INFO[0m [1mprove_core[0m: collecting checkpoints    
+[2m2024-10-24T13:25:53.698703Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:25:53.698721Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:25:55.239076Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:25:55.239102Z[0m [32m INFO[0m [1mprove_core[0m: waiting for turn 7    
+[2m2024-10-24T13:25:55.239113Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+[2m2024-10-24T13:25:55.239116Z[0m [32m INFO[0m [1mprove_core[0m: collecting checkpoints    
+[2m2024-10-24T13:25:55.239119Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:25:55.239137Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:25:56.723845Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:25:56.723872Z[0m [32m INFO[0m [1mprove_core[0m: waiting for turn 8    
+[2m2024-10-24T13:25:56.723883Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+[2m2024-10-24T13:25:56.723885Z[0m [32m INFO[0m [1mprove_core[0m: collecting checkpoints    
+[2m2024-10-24T13:25:56.723889Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:25:56.723906Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:25:58.157240Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:25:58.157265Z[0m [32m INFO[0m [1mprove_core[0m: waiting for turn 9    
+[2m2024-10-24T13:25:58.157276Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+[2m2024-10-24T13:25:58.157278Z[0m [32m INFO[0m [1mprove_core[0m: collecting checkpoints    
+[2m2024-10-24T13:25:58.157281Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:25:58.157300Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:25:59.623506Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:25:59.623531Z[0m [32m INFO[0m [1mprove_core[0m: waiting for turn 10    
+[2m2024-10-24T13:25:59.623542Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+[2m2024-10-24T13:25:59.623544Z[0m [32m INFO[0m [1mprove_core[0m: collecting checkpoints    
+[2m2024-10-24T13:25:59.623547Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:25:59.623565Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:26:01.094687Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:26:01.094724Z[0m [32m INFO[0m [1mprove_core[0m: waiting for turn 11    
+[2m2024-10-24T13:26:01.094734Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+[2m2024-10-24T13:26:01.094737Z[0m [32m INFO[0m [1mprove_core[0m: collecting checkpoints    
+[2m2024-10-24T13:26:01.094740Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:26:01.094758Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:26:02.599665Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:26:02.599691Z[0m [32m INFO[0m [1mprove_core[0m: waiting for turn 12    
+[2m2024-10-24T13:26:02.599703Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+[2m2024-10-24T13:26:02.599705Z[0m [32m INFO[0m [1mprove_core[0m: collecting checkpoints    
+[2m2024-10-24T13:26:02.599707Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:26:02.599725Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:26:04.103994Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:26:04.104016Z[0m [32m INFO[0m [1mprove_core[0m: waiting for turn 13    
+[2m2024-10-24T13:26:04.104026Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+[2m2024-10-24T13:26:04.104029Z[0m [32m INFO[0m [1mprove_core[0m: collecting checkpoints    
+[2m2024-10-24T13:26:04.104031Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:26:04.104049Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:26:05.569556Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:26:05.569578Z[0m [32m INFO[0m [1mprove_core[0m: waiting for turn 14    
+[2m2024-10-24T13:26:05.569588Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+[2m2024-10-24T13:26:05.569590Z[0m [32m INFO[0m [1mprove_core[0m: collecting checkpoints    
+[2m2024-10-24T13:26:05.569592Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:26:05.569610Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:26:06.993401Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:26:06.993423Z[0m [32m INFO[0m [1mprove_core[0m: waiting for turn 15    
+[2m2024-10-24T13:26:06.993685Z[0m [32m INFO[0m [1mprove_core[0m: deferred 1 records    
+[2m2024-10-24T13:26:06.993689Z[0m [32m INFO[0m [1mprove_core[0m: collecting checkpoints    
+[2m2024-10-24T13:26:06.993691Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:26:06.993709Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:26:06.993718Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:26:11.320964Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:26:11.320996Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+[2m2024-10-24T13:26:12.474493Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:26:12.474528Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+[2m2024-10-24T13:26:14.805049Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:26:14.805110Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+[2m2024-10-24T13:27:07.606761Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:27:07.606798Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+[2m2024-10-24T13:28:01.886621Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:28:01.886671Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+[2m2024-10-24T13:28:56.479190Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:28:56.479238Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+[2m2024-10-24T13:29:48.782206Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:29:48.782242Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+[2m2024-10-24T13:30:43.589626Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:30:43.589669Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+[2m2024-10-24T13:31:44.160887Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:31:44.160943Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+^C
+[1m[7m%[27m[1m[0m                                                                                                                                     ]2;flyingnobita@Jan-MacBook-Pro:~/Data/Project/zk/succinctlabs/sp1-keccak-compare/script]1;..ompare/script]7;file://Jan-MacBook-Pro.local/Users/flyingnobita/Data/Project/zk/succinctlabs/sp1-keccak-compare/script\[0m[27m[24m[J[0m[38;5;238m[49m[39m
+
+[A[38;5;238m╭─[0m[38;5;238m[48;5;234m[38;5;31m [1m[38;5;31m[48;5;234m[38;5;39m~[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/Data/Project/zk/succinctlabs/[1m[38;5;31m[48;5;234m[38;5;39msp1-keccak-compare[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/[1m[38;5;31m[48;5;234m[38;5;39mscript[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m[0m[38;5;31m[48;5;234m[48;5;234m[38;5;31m [0m[38;5;31m[48;5;234m[48;5;234m[38;5;242m[0m[38;5;242m[48;5;234m[48;5;234m[38;5;178m [38;5;76mmain [38;5;178m!3[0m[38;5;178m[48;5;234m[48;5;234m[38;5;178m [0m[38;5;178m[48;5;234m[49m[38;5;234m[0m[38;5;234m[49m[39m                                          [0m[49m[38;5;234m[0m[38;5;234m[48;5;234m[38;5;160m INT[0m[38;5;160m[48;5;234m[48;5;234m[38;5;160m ✘[0m[38;5;160m[48;5;234m[48;5;234m[38;5;160m [0m[38;5;160m[48;5;234m[48;5;234m[38;5;160m[0m[38;5;160m[48;5;234m[48;5;234m[38;5;248m[38;5;242m[0m[38;5;242m[48;5;234m[48;5;234m[38;5;248m 6m 46s[0m[38;5;248m[48;5;234m[48;5;234m[38;5;248m[0m[38;5;248m[48;5;234m[48;5;234m[38;5;248m [0m[38;5;248m[48;5;234m[49m[39m[38;5;238m─╮
+[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[127C[0m[49m[39m[38;5;238m─╯[39m[129D[?1h=[?2004h[?1l>[?2004l[?25l[A[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m [K[?25h
+[1m[7m%[27m[1m[0m                                                                                                                                     ]2;flyingnobita@Jan-MacBook-Pro:~/Data/Project/zk/succinctlabs/sp1-keccak-compare/script]1;..ompare/script]7;file://Jan-MacBook-Pro.local/Users/flyingnobita/Data/Project/zk/succinctlabs/sp1-keccak-compare/script\[0m[27m[24m[J[0m[38;5;238m[49m[39m
+
+[A[38;5;238m╭─[0m[38;5;238m[48;5;234m[38;5;31m [1m[38;5;31m[48;5;234m[38;5;39m~[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/Data/Project/zk/succinctlabs/[1m[38;5;31m[48;5;234m[38;5;39msp1-keccak-compare[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/[1m[38;5;31m[48;5;234m[38;5;39mscript[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m[0m[38;5;31m[48;5;234m[48;5;234m[38;5;31m [0m[38;5;31m[48;5;234m[48;5;234m[38;5;242m[0m[38;5;242m[48;5;234m[48;5;234m[38;5;178m [38;5;76mmain [38;5;178m!3[0m[38;5;178m[48;5;234m[48;5;234m[38;5;178m [0m[38;5;178m[48;5;234m[49m[38;5;234m[0m[38;5;234m[49m[39m                                                   [0m[49m[38;5;234m[0m[38;5;234m[48;5;234m[38;5;160m INT[0m[38;5;160m[48;5;234m[48;5;234m[38;5;160m ✘[0m[38;5;160m[48;5;234m[48;5;234m[38;5;160m [0m[38;5;160m[48;5;234m[49m[39m[38;5;238m─╮
+[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[127C[0m[49m[39m[38;5;238m─╯[39m[129D[?1h=[?2004h[?1l>[?2004l[?25l[A[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m [K[?25h
+[1m[7m%[27m[1m[0m                                                                                                                                     ]2;flyingnobita@Jan-MacBook-Pro:~/Data/Project/zk/succinctlabs/sp1-keccak-compare/script]1;..ompare/script]7;file://Jan-MacBook-Pro.local/Users/flyingnobita/Data/Project/zk/succinctlabs/sp1-keccak-compare/script\[0m[27m[24m[J[0m[38;5;238m[49m[39m
+
+[A[38;5;238m╭─[0m[38;5;238m[48;5;234m[38;5;31m [1m[38;5;31m[48;5;234m[38;5;39m~[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/Data/Project/zk/succinctlabs/[1m[38;5;31m[48;5;234m[38;5;39msp1-keccak-compare[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/[1m[38;5;31m[48;5;234m[38;5;39mscript[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m[0m[38;5;31m[48;5;234m[48;5;234m[38;5;31m [0m[38;5;31m[48;5;234m[48;5;234m[38;5;242m[0m[38;5;242m[48;5;234m[48;5;234m[38;5;178m [38;5;76mmain [38;5;178m!3[0m[38;5;178m[48;5;234m[48;5;234m[38;5;178m [0m[38;5;178m[48;5;234m[49m[38;5;234m[0m[38;5;234m[49m[39m                                                   [0m[49m[38;5;234m[0m[38;5;234m[48;5;234m[38;5;160m INT[0m[38;5;160m[48;5;234m[48;5;234m[38;5;160m ✘[0m[38;5;160m[48;5;234m[48;5;234m[38;5;160m [0m[38;5;160m[48;5;234m[49m[39m[38;5;238m─╮
+[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[127C[0m[49m[39m[38;5;238m─╯[39m[129D[?1h=[?2004hRUST_LOG=info cargo run --release -- --prove[30D[32mc[32ma[32mr[32mg[32mo[39m[25C[?1l>[?2004l[?25l[A[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m RUST_LOG=info [32mcargo[39m run --release -- --prove[K[?25h
+]2;RUST_LOG=info cargo run --release -- --prove]1;cargo[1m[32m   Compiling[0m keccak-compare-script v0.1.0 (/Users/flyingnobita/Data/Project/zk/succinctlabs/sp1-keccak-compare/script)
+[1m[36m    Building[0m [=======================> ] 727/729: keccak-compare-script(build)                                                     ^C
+[1m[7m%[27m[1m[0m                                                                                                                                     ]2;flyingnobita@Jan-MacBook-Pro:~/Data/Project/zk/succinctlabs/sp1-keccak-compare/script]1;..ompare/script]7;file://Jan-MacBook-Pro.local/Users/flyingnobita/Data/Project/zk/succinctlabs/sp1-keccak-compare/script\[0m[27m[24m[J[0m[38;5;238m[49m[39m
+
+[A[38;5;238m╭─[0m[38;5;238m[48;5;234m[38;5;31m [1m[38;5;31m[48;5;234m[38;5;39m~[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/Data/Project/zk/succinctlabs/[1m[38;5;31m[48;5;234m[38;5;39msp1-keccak-compare[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/[1m[38;5;31m[48;5;234m[38;5;39mscript[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m[0m[38;5;31m[48;5;234m[48;5;234m[38;5;31m [0m[38;5;31m[48;5;234m[48;5;234m[38;5;242m[0m[38;5;242m[48;5;234m[48;5;234m[38;5;178m [38;5;76mmain [38;5;178m!3[0m[38;5;178m[48;5;234m[48;5;234m[38;5;178m [0m[38;5;178m[48;5;234m[49m[38;5;234m[0m[38;5;234m[49m[39m                                                   [0m[49m[38;5;234m[0m[38;5;234m[48;5;234m[38;5;160m INT[0m[38;5;160m[48;5;234m[48;5;234m[38;5;160m ✘[0m[38;5;160m[48;5;234m[48;5;234m[38;5;160m [0m[38;5;160m[48;5;234m[49m[39m[38;5;238m─╮
+[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[127C[0m[49m[39m[38;5;238m─╯[39m[129D[?1h=[?2004hRUST_LOG=info cargo run --release -- --prove[30D[32mc[32ma[32mr[32mg[32mo[39m[25Cexecute[?1l>[?2004l[?25l[A[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m RUST_LOG=info [32mcargo[39m run --release -- --execute[K[?25h
+]2;RUST_LOG=info cargo run --release -- --execute]1;cargo[1m[32m   Compiling[0m keccak-compare-script v0.1.0 (/Users/flyingnobita/Data/Project/zk/succinctlabs/sp1-keccak-compare/script)
+[1m[36m    Building[0m [=======================> ] 727/729: keccak-compare-script(build)                                                     [K[1m[33mwarning[0m[1m:[0m keccak-compare-script@0.1.0: keccak-compare-program built at 2024-10-24 21:32:44
+[1m[36m    Building[0m [=======================> ] 728/729: main(bin)                                                                        [K[1m[32m    Finished[0m ]8;;https://doc.rust-lang.org/cargo/reference/profiles.html#default-profiles\`release` profile [optimized]]8;;\ target(s) in 3.09s
+[1m[32m     Running[0m `/Users/flyingnobita/Data/Project/zk/succinctlabs/sp1-keccak-compare/target/release/main --execute`
+[2m2024-10-24T13:32:46.488767Z[0m [32m INFO[0m vk verification: true
+[2m2024-10-24T13:32:46.628325Z[0m [32m INFO[0m [1mexecute[0m: close [3mtime.busy[0m[2m=[0m68.0ms [3mtime.idle[0m[2m=[0m2.54µs
+Program executed successfully.
+Number of cycles: 1676023
+[1m[7m%[27m[1m[0m                                                                                                                                     ]2;flyingnobita@Jan-MacBook-Pro:~/Data/Project/zk/succinctlabs/sp1-keccak-compare/script]1;..ompare/script]7;file://Jan-MacBook-Pro.local/Users/flyingnobita/Data/Project/zk/succinctlabs/sp1-keccak-compare/script\[0m[27m[24m[J[0m[38;5;238m[49m[39m
+
+[A[38;5;238m╭─[0m[38;5;238m[48;5;234m[38;5;31m [1m[38;5;31m[48;5;234m[38;5;39m~[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/Data/Project/zk/succinctlabs/[1m[38;5;31m[48;5;234m[38;5;39msp1-keccak-compare[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/[1m[38;5;31m[48;5;234m[38;5;39mscript[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m[0m[38;5;31m[48;5;234m[48;5;234m[38;5;31m [0m[38;5;31m[48;5;234m[48;5;234m[38;5;242m[0m[38;5;242m[48;5;234m[48;5;234m[38;5;178m [38;5;76mmain [38;5;178m!3[0m[38;5;178m[48;5;234m[48;5;234m[38;5;178m [0m[38;5;178m[48;5;234m[49m[38;5;234m[0m[38;5;234m[49m[39m                                                  [0m[49m[38;5;234m[0m[38;5;234m[48;5;234m[38;5;70m [0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m✔[0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m [0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m[0m[38;5;70m[48;5;234m[48;5;234m[38;5;248m[38;5;242m[0m[38;5;242m[48;5;234m[48;5;234m[38;5;248m 4s[0m[38;5;248m[48;5;234m[48;5;234m[38;5;248m[0m[38;5;248m[48;5;234m[48;5;234m[38;5;248m [0m[38;5;248m[48;5;234m[49m[39m[38;5;238m─╮
+[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[127C[0m[49m[39m[38;5;238m─╯[39m[129D[?1h=[?2004hRUST_LOG=info cargo run --release -- --execute[32D[32mc[32ma[32mr[32mg[32mo[39m[27Cprove  [?1l>[?2004l[?25l[A[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m RUST_LOG=info [32mcargo[39m run --release -- --prove[K[?25h
+]2;RUST_LOG=info cargo run --release -- --prove]1;cargo[1m[33mwarning[0m[1m:[0m keccak-compare-script@0.1.0: keccak-compare-program built at 2024-10-24 21:32:44
+[1m[32m    Finished[0m ]8;;https://doc.rust-lang.org/cargo/reference/profiles.html#default-profiles\`release` profile [optimized]]8;;\ target(s) in 0.30s
+[1m[32m     Running[0m `/Users/flyingnobita/Data/Project/zk/succinctlabs/sp1-keccak-compare/target/release/main --prove`
+[2m2024-10-24T13:32:51.658378Z[0m [32m INFO[0m vk verification: true
+[2m2024-10-24T13:32:52.361456Z[0m [32m INFO[0m [1mprove_core[0m:[1mclone[0m: close [3mtime.busy[0m[2m=[0m7.46µs [3mtime.idle[0m[2m=[0m1.38µs
+[2m2024-10-24T13:32:52.411658Z[0m [32m INFO[0m [1mprove_core[0m:[1mexecute[0m: close [3mtime.busy[0m[2m=[0m50.1ms [3mtime.idle[0m[2m=[0m1.04µs
+[2m2024-10-24T13:32:52.411944Z[0m [32m INFO[0m [1mprove_core[0m:[1mcreate memory checkpoint[0m: close [3mtime.busy[0m[2m=[0m256µs [3mtime.idle[0m[2m=[0m792ns
+[2m2024-10-24T13:32:52.412495Z[0m [32m INFO[0m [1mprove_core[0m:[1mclone[0m: close [3mtime.busy[0m[2m=[0m6.50µs [3mtime.idle[0m[2m=[0m584ns
+[2m2024-10-24T13:32:52.442151Z[0m [32m INFO[0m [1mprove_core[0m:[1mexecute[0m: close [3mtime.busy[0m[2m=[0m29.6ms [3mtime.idle[0m[2m=[0m959ns
+[2m2024-10-24T13:32:52.442409Z[0m [32m INFO[0m [1mprove_core[0m:[1mcreate memory checkpoint[0m: close [3mtime.busy[0m[2m=[0m237µs [3mtime.idle[0m[2m=[0m834ns
+[2m2024-10-24T13:32:52.879409Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:32:52.879431Z[0m [32m INFO[0m [1mprove_core[0m: waiting for turn 0    
+[2m2024-10-24T13:32:52.879469Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+[2m2024-10-24T13:32:52.879474Z[0m [32m INFO[0m [1mprove_core[0m: collecting checkpoints    
+[2m2024-10-24T13:32:52.879478Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:32:52.879507Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:32:53.267354Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:32:53.267376Z[0m [32m INFO[0m [1mprove_core[0m: waiting for turn 1    
+[2m2024-10-24T13:32:53.267449Z[0m [32m INFO[0m [1mprove_core[0m: deferred 1 records    
+[2m2024-10-24T13:32:53.267455Z[0m [32m INFO[0m [1mprove_core[0m: collecting checkpoints    
+[2m2024-10-24T13:32:53.267457Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:32:53.267474Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:32:53.267485Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:32:56.127566Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:32:56.127598Z[0m [32m INFO[0m [1mprove_core[0m: deferred 0 records    
+[2m2024-10-24T13:32:56.773177Z[0m [32m INFO[0m [1mprove_core[0m: generated 2 records    
+[2m2024-10-24T13:32:56.773261Z[0m [32m INFO[0m [1mprove_core[0m: deferred 1 records    
+[2m2024-10-24T13:34:27.780431Z[0m [32m INFO[0m [1mprove_core[0m: execution report (totals): total_cycles=1676023, total_syscall_cycles=17, touched_memory_addresses=12512
+[2m2024-10-24T13:34:27.780469Z[0m [32m INFO[0m [1mprove_core[0m: execution report (opcode counts):
+[2m2024-10-24T13:34:27.780514Z[0m [32m INFO[0m [1mprove_core[0m:   485506 xor
+[2m2024-10-24T13:34:27.780517Z[0m [32m INFO[0m [1mprove_core[0m:   308412 lw
+[2m2024-10-24T13:34:27.780519Z[0m [32m INFO[0m [1mprove_core[0m:   255375 sw
+[2m2024-10-24T13:34:27.780520Z[0m [32m INFO[0m [1mprove_core[0m:   140159 or
+[2m2024-10-24T13:34:27.780522Z[0m [32m INFO[0m [1mprove_core[0m:   139950 sll
+[2m2024-10-24T13:34:27.780524Z[0m [32m INFO[0m [1mprove_core[0m:   139891 srl
+[2m2024-10-24T13:34:27.780525Z[0m [32m INFO[0m [1mprove_core[0m:   121626 and
+[2m2024-10-24T13:34:27.780527Z[0m [32m INFO[0m [1mprove_core[0m:    61439 add
+[2m2024-10-24T13:34:27.780529Z[0m [32m INFO[0m [1mprove_core[0m:     9406 bne
+[2m2024-10-24T13:34:27.780531Z[0m [32m INFO[0m [1mprove_core[0m:     6465 lbu
+[2m2024-10-24T13:34:27.780532Z[0m [32m INFO[0m [1mprove_core[0m:     2223 bltu
+[2m2024-10-24T13:34:27.780534Z[0m [32m INFO[0m [1mprove_core[0m:     1817 sb
+[2m2024-10-24T13:34:27.780535Z[0m [32m INFO[0m [1mprove_core[0m:     1212 jalr
+[2m2024-10-24T13:34:27.780537Z[0m [32m INFO[0m [1mprove_core[0m:      709 auipc
+[2m2024-10-24T13:34:27.780538Z[0m [32m INFO[0m [1mprove_core[0m:      706 sub
+[2m2024-10-24T13:34:27.780540Z[0m [32m INFO[0m [1mprove_core[0m:      606 beq
+[2m2024-10-24T13:34:27.780541Z[0m [32m INFO[0m [1mprove_core[0m:      202 sltu
+[2m2024-10-24T13:34:27.780543Z[0m [32m INFO[0m [1mprove_core[0m:      202 mul
+[2m2024-10-24T13:34:27.780544Z[0m [32m INFO[0m [1mprove_core[0m:      100 jal
+[2m2024-10-24T13:34:27.780546Z[0m [32m INFO[0m [1mprove_core[0m:       17 ecall
+[2m2024-10-24T13:34:27.780547Z[0m [32m INFO[0m [1mprove_core[0m:        0 sra
+[2m2024-10-24T13:34:27.780608Z[0m [32m INFO[0m [1mprove_core[0m:        0 slt
+[2m2024-10-24T13:34:27.780612Z[0m [32m INFO[0m [1mprove_core[0m:        0 lb
+[2m2024-10-24T13:34:27.780614Z[0m [32m INFO[0m [1mprove_core[0m:        0 lh
+[2m2024-10-24T13:34:27.780615Z[0m [32m INFO[0m [1mprove_core[0m:        0 lhu
+[2m2024-10-24T13:34:27.780617Z[0m [32m INFO[0m [1mprove_core[0m:        0 sh
+[2m2024-10-24T13:34:27.780618Z[0m [32m INFO[0m [1mprove_core[0m:        0 blt
+[2m2024-10-24T13:34:27.780620Z[0m [32m INFO[0m [1mprove_core[0m:        0 bge
+[2m2024-10-24T13:34:27.780621Z[0m [32m INFO[0m [1mprove_core[0m:        0 bgeu
+[2m2024-10-24T13:34:27.780623Z[0m [32m INFO[0m [1mprove_core[0m:        0 ebreak
+[2m2024-10-24T13:34:27.780624Z[0m [32m INFO[0m [1mprove_core[0m:        0 mulh
+[2m2024-10-24T13:34:27.780626Z[0m [32m INFO[0m [1mprove_core[0m:        0 mulhu
+[2m2024-10-24T13:34:27.780627Z[0m [32m INFO[0m [1mprove_core[0m:        0 mulhsu
+[2m2024-10-24T13:34:27.780989Z[0m [32m INFO[0m [1mprove_core[0m:        0 div
+[2m2024-10-24T13:34:27.780991Z[0m [32m INFO[0m [1mprove_core[0m:        0 divu
+[2m2024-10-24T13:34:27.780993Z[0m [32m INFO[0m [1mprove_core[0m:        0 rem
+[2m2024-10-24T13:34:27.780994Z[0m [32m INFO[0m [1mprove_core[0m:        0 remu
+[2m2024-10-24T13:34:27.780996Z[0m [32m INFO[0m [1mprove_core[0m:        0 unimp
+[2m2024-10-24T13:34:27.780998Z[0m [32m INFO[0m [1mprove_core[0m: execution report (syscall counts):
+[2m2024-10-24T13:34:27.781002Z[0m [32m INFO[0m [1mprove_core[0m:   8 commit
+[2m2024-10-24T13:34:27.781019Z[0m [32m INFO[0m [1mprove_core[0m:   8 commit_deferred_proofs
+[2m2024-10-24T13:34:27.781022Z[0m [32m INFO[0m [1mprove_core[0m:   1 halt
+[2m2024-10-24T13:34:27.781024Z[0m [32m INFO[0m [1mprove_core[0m:   0 write
+[2m2024-10-24T13:34:27.781026Z[0m [32m INFO[0m [1mprove_core[0m:   0 enter_unconstrained
+[2m2024-10-24T13:34:27.781027Z[0m [32m INFO[0m [1mprove_core[0m:   0 exit_unconstrained
+[2m2024-10-24T13:34:27.781029Z[0m [32m INFO[0m [1mprove_core[0m:   0 verify_sp1_proof
+[2m2024-10-24T13:34:27.781031Z[0m [32m INFO[0m [1mprove_core[0m:   0 hint_len
+[2m2024-10-24T13:34:27.781032Z[0m [32m INFO[0m [1mprove_core[0m:   0 hint_read
+[2m2024-10-24T13:34:27.781034Z[0m [32m INFO[0m [1mprove_core[0m:   0 ed_decompress
+[2m2024-10-24T13:34:27.781036Z[0m [32m INFO[0m [1mprove_core[0m:   0 secp256k1_double
+[2m2024-10-24T13:34:27.781038Z[0m [32m INFO[0m [1mprove_core[0m:   0 secp256k1_decompress
+[2m2024-10-24T13:34:27.781040Z[0m [32m INFO[0m [1mprove_core[0m:   0 bn254_double
+[2m2024-10-24T13:34:27.781042Z[0m [32m INFO[0m [1mprove_core[0m:   0 bls12381_decompress
+[2m2024-10-24T13:34:27.781044Z[0m [32m INFO[0m [1mprove_core[0m:   0 bls12381_double
+[2m2024-10-24T13:34:27.781045Z[0m [32m INFO[0m [1mprove_core[0m:   0 sha_compress
+[2m2024-10-24T13:34:27.781047Z[0m [32m INFO[0m [1mprove_core[0m:   0 ed_add
+[2m2024-10-24T13:34:27.781049Z[0m [32m INFO[0m [1mprove_core[0m:   0 keccak_permute
+[2m2024-10-24T13:34:27.782008Z[0m [32m INFO[0m [1mprove_core[0m:   0 secp256k1_add
+[2m2024-10-24T13:34:27.782012Z[0m [32m INFO[0m [1mprove_core[0m:   0 bn254_add
+[2m2024-10-24T13:34:27.782014Z[0m [32m INFO[0m [1mprove_core[0m:   0 uint256_mul
+[2m2024-10-24T13:34:27.782016Z[0m [32m INFO[0m [1mprove_core[0m:   0 bls12381_add
+[2m2024-10-24T13:34:27.782018Z[0m [32m INFO[0m [1mprove_core[0m:   0 bls12381_fp_add
+[2m2024-10-24T13:34:27.782020Z[0m [32m INFO[0m [1mprove_core[0m:   0 bls12381_fp_sub
+[2m2024-10-24T13:34:27.782021Z[0m [32m INFO[0m [1mprove_core[0m:   0 bls12381_fp_mul
+[2m2024-10-24T13:34:27.782023Z[0m [32m INFO[0m [1mprove_core[0m:   0 bls12381_fp2_add
+[2m2024-10-24T13:34:27.782025Z[0m [32m INFO[0m [1mprove_core[0m:   0 bls12381_fp2_sub
+[2m2024-10-24T13:34:27.782026Z[0m [32m INFO[0m [1mprove_core[0m:   0 bls12381_fp2_mul
+[2m2024-10-24T13:34:27.782028Z[0m [32m INFO[0m [1mprove_core[0m:   0 bn254_fp_add
+[2m2024-10-24T13:34:27.782039Z[0m [32m INFO[0m [1mprove_core[0m:   0 bn254_fp_sub
+[2m2024-10-24T13:34:27.782042Z[0m [32m INFO[0m [1mprove_core[0m:   0 bn254_fp_mul
+[2m2024-10-24T13:34:27.782043Z[0m [32m INFO[0m [1mprove_core[0m:   0 bn254_fp2_add
+[2m2024-10-24T13:34:27.782045Z[0m [32m INFO[0m [1mprove_core[0m:   0 bn254_fp2_sub
+[2m2024-10-24T13:34:27.782046Z[0m [32m INFO[0m [1mprove_core[0m:   0 bn254_fp2_mul
+[2m2024-10-24T13:34:27.782048Z[0m [32m INFO[0m [1mprove_core[0m:   0 sha_extend
+[2m2024-10-24T13:34:28.141440Z[0m [32m INFO[0m [1mprove_core[0m: summary: cycles=1676023, gas=1951203, e2e=95.422750791s, khz=17.56, proofSize=7123300
+[2m2024-10-24T13:34:28.152435Z[0m [32m INFO[0m [1mprove_core[0m: close [3mtime.busy[0m[2m=[0m94.5s [3mtime.idle[0m[2m=[0m1.31s
+Successfully generated proof!
+[2m2024-10-24T13:34:28.675837Z[0m [32m INFO[0m [1mverify[0m: close [3mtime.busy[0m[2m=[0m520ms [3mtime.idle[0m[2m=[0m1.75µs
+Successfully verified proof!
+[1m[7m%[27m[1m[0m                                                                                                                                     ]2;flyingnobita@Jan-MacBook-Pro:~/Data/Project/zk/succinctlabs/sp1-keccak-compare/script]1;..ompare/script]7;file://Jan-MacBook-Pro.local/Users/flyingnobita/Data/Project/zk/succinctlabs/sp1-keccak-compare/script\[0m[27m[24m[J[0m[38;5;238m[49m[39m
+
+[A[38;5;238m╭─[0m[38;5;238m[48;5;234m[38;5;31m [1m[38;5;31m[48;5;234m[38;5;39m~[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/Data/Project/zk/succinctlabs/[1m[38;5;31m[48;5;234m[38;5;39msp1-keccak-compare[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/[1m[38;5;31m[48;5;234m[38;5;39mscript[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m[0m[38;5;31m[48;5;234m[48;5;234m[38;5;31m [0m[38;5;31m[48;5;234m[48;5;234m[38;5;242m[0m[38;5;242m[48;5;234m[48;5;234m[38;5;178m [38;5;76mmain [38;5;178m!3[0m[38;5;178m[48;5;234m[48;5;234m[38;5;178m [0m[38;5;178m[48;5;234m[49m[38;5;234m[0m[38;5;234m[49m[39m                                              [0m[49m[38;5;234m[0m[38;5;234m[48;5;234m[38;5;70m [0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m✔[0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m [0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m[0m[38;5;70m[48;5;234m[48;5;234m[38;5;248m[38;5;242m[0m[38;5;242m[48;5;234m[48;5;234m[38;5;248m 1m 39s[0m[38;5;248m[48;5;234m[48;5;234m[38;5;248m[0m[38;5;248m[48;5;234m[48;5;234m[38;5;248m [0m[38;5;248m[48;5;234m[49m[39m[38;5;238m─╮
+[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[127C[0m[49m[39m[38;5;238m─╯[39m[129D[?1h=[?2004h[?1l>[?2004l[?25l[A[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m [K[?25h
+[1m[7m%[27m[1m[0m                                                                                                                                     ]2;flyingnobita@Jan-MacBook-Pro:~/Data/Project/zk/succinctlabs/sp1-keccak-compare/script]1;..ompare/script]7;file://Jan-MacBook-Pro.local/Users/flyingnobita/Data/Project/zk/succinctlabs/sp1-keccak-compare/script\[0m[27m[24m[J[0m[38;5;238m[49m[39m
+
+[A[38;5;238m╭─[0m[38;5;238m[48;5;234m[38;5;31m [1m[38;5;31m[48;5;234m[38;5;39m~[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/Data/Project/zk/succinctlabs/[1m[38;5;31m[48;5;234m[38;5;39msp1-keccak-compare[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/[1m[38;5;31m[48;5;234m[38;5;39mscript[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m[0m[38;5;31m[48;5;234m[48;5;234m[38;5;31m [0m[38;5;31m[48;5;234m[48;5;234m[38;5;242m[0m[38;5;242m[48;5;234m[48;5;234m[38;5;178m [38;5;76mmain [38;5;178m!3[0m[38;5;178m[48;5;234m[48;5;234m[38;5;178m [0m[38;5;178m[48;5;234m[49m[38;5;234m[0m[38;5;234m[49m[39m                                                       [0m[49m[38;5;234m[0m[38;5;234m[48;5;234m[38;5;70m [0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m✔[0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m [0m[38;5;70m[48;5;234m[49m[39m[38;5;238m─╮
+[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[127C[0m[49m[39m[38;5;238m─╯[39m[129D[?1h=[?2004h[?1l>[?2004l[?25l[A[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m [K[?25h
+[1m[7m%[27m[1m[0m                                                                                                                                     ]2;flyingnobita@Jan-MacBook-Pro:~/Data/Project/zk/succinctlabs/sp1-keccak-compare/script]1;..ompare/script]7;file://Jan-MacBook-Pro.local/Users/flyingnobita/Data/Project/zk/succinctlabs/sp1-keccak-compare/script\[0m[27m[24m[J[0m[38;5;238m[49m[39m
+
+[A[38;5;238m╭─[0m[38;5;238m[48;5;234m[38;5;31m [1m[38;5;31m[48;5;234m[38;5;39m~[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/Data/Project/zk/succinctlabs/[1m[38;5;31m[48;5;234m[38;5;39msp1-keccak-compare[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/[1m[38;5;31m[48;5;234m[38;5;39mscript[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m[0m[38;5;31m[48;5;234m[48;5;234m[38;5;31m [0m[38;5;31m[48;5;234m[48;5;234m[38;5;242m[0m[38;5;242m[48;5;234m[48;5;234m[38;5;178m [38;5;76mmain [38;5;178m!3[0m[38;5;178m[48;5;234m[48;5;234m[38;5;178m [0m[38;5;178m[48;5;234m[49m[38;5;234m[0m[38;5;234m[49m[39m                                                       [0m[49m[38;5;234m[0m[38;5;234m[48;5;234m[38;5;70m [0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m✔[0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m [0m[38;5;70m[48;5;234m[49m[39m[38;5;238m─╮
+[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[127C[0m[49m[39m[38;5;238m─╯[39m[129D[?1h=[?2004hRUST_LOG=info cargo run --release -- --prove[30D[32mc[32ma[32mr[32mg[32mo[39m[25Cexecute[?1l>[?2004l[?25l[A[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m RUST_LOG=info [32mcargo[39m run --release -- --execute[K[?25h
+]2;RUST_LOG=info cargo run --release -- --execute]1;cargo[1m[32m   Compiling[0m keccak-compare-script v0.1.0 (/Users/flyingnobita/Data/Project/zk/succinctlabs/sp1-keccak-compare/script)
+[1m[36m    Building[0m [=======================> ] 727/729: keccak-compare-script(build)                                                     [K[1m[33mwarning[0m[1m:[0m keccak-compare-script@0.1.0: keccak-compare-program built at 2024-10-24 21:36:32
+[1m[36m    Building[0m [=======================> ] 728/729: main(bin)                                                                        [K[1m[32m    Finished[0m ]8;;https://doc.rust-lang.org/cargo/reference/profiles.html#default-profiles\`release` profile [optimized]]8;;\ target(s) in 3.19s
+[1m[32m     Running[0m `/Users/flyingnobita/Data/Project/zk/succinctlabs/sp1-keccak-compare/target/release/main --execute`
+[2m2024-10-24T13:36:34.160888Z[0m [32m INFO[0m vk verification: true
+[2m2024-10-24T13:36:34.236725Z[0m [32m INFO[0m [1mexecute[0m: close [3mtime.busy[0m[2m=[0m9.62ms [3mtime.idle[0m[2m=[0m2.54µs
+Program executed successfully.
+Number of cycles: 122717
+[1m[7m%[27m[1m[0m                                                                                                                                     ]2;flyingnobita@Jan-MacBook-Pro:~/Data/Project/zk/succinctlabs/sp1-keccak-compare/script]1;..ompare/script]7;file://Jan-MacBook-Pro.local/Users/flyingnobita/Data/Project/zk/succinctlabs/sp1-keccak-compare/script\[0m[27m[24m[J[0m[38;5;238m[49m[39m
+
+[A[38;5;238m╭─[0m[38;5;238m[48;5;234m[38;5;31m [1m[38;5;31m[48;5;234m[38;5;39m~[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/Data/Project/zk/succinctlabs/[1m[38;5;31m[48;5;234m[38;5;39msp1-keccak-compare[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/[1m[38;5;31m[48;5;234m[38;5;39mscript[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m[0m[38;5;31m[48;5;234m[48;5;234m[38;5;31m [0m[38;5;31m[48;5;234m[48;5;234m[38;5;242m[0m[38;5;242m[48;5;234m[48;5;234m[38;5;178m [38;5;76mmain [38;5;178m!3[0m[38;5;178m[48;5;234m[48;5;234m[38;5;178m [0m[38;5;178m[48;5;234m[49m[38;5;234m[0m[38;5;234m[49m[39m                                                  [0m[49m[38;5;234m[0m[38;5;234m[48;5;234m[38;5;70m [0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m✔[0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m [0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m[0m[38;5;70m[48;5;234m[48;5;234m[38;5;248m[38;5;242m[0m[38;5;242m[48;5;234m[48;5;234m[38;5;248m 4s[0m[38;5;248m[48;5;234m[48;5;234m[38;5;248m[0m[38;5;248m[48;5;234m[48;5;234m[38;5;248m [0m[38;5;248m[48;5;234m[49m[39m[38;5;238m─╮
+[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[127C[0m[49m[39m[38;5;238m─╯[39m[129D[?1h=[?2004hRUST_LOG=info cargo run --release -- --execute[32D[32mc[32ma[32mr[32mg[32mo[39m[27Cprove  [?1l>[?2004l[?25l[A[A[0m[27m[24m[J[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m RUST_LOG=info [32mcargo[39m run --release -- --prove[K[?25h
+]2;RUST_LOG=info cargo run --release -- --prove]1;cargo[1m[33mwarning[0m[1m:[0m keccak-compare-script@0.1.0: keccak-compare-program built at 2024-10-24 21:36:32
+[1m[32m    Finished[0m ]8;;https://doc.rust-lang.org/cargo/reference/profiles.html#default-profiles\`release` profile [optimized]]8;;\ target(s) in 0.27s
+[1m[32m     Running[0m `/Users/flyingnobita/Data/Project/zk/succinctlabs/sp1-keccak-compare/target/release/main --prove`
+[2m2024-10-24T13:36:39.284648Z[0m [32m INFO[0m vk verification: true
+[2m2024-10-24T13:36:39.970396Z[0m [32m INFO[0m [1mprove_core[0m:[1mclone[0m: close [3mtime.busy[0m[2m=[0m16.6µs [3mtime.idle[0m[2m=[0m875ns
+[2m2024-10-24T13:36:39.976780Z[0m [32m INFO[0m [1mprove_core[0m:[1mexecute[0m: close [3mtime.busy[0m[2m=[0m6.29ms [3mtime.idle[0m[2m=[0m250ns
+[2m2024-10-24T13:36:39.977201Z[0m [32m INFO[0m [1mprove_core[0m:[1mcreate memory checkpoint[0m: close [3mtime.busy[0m[2m=[0m412µs [3mtime.idle[0m[2m=[0m1.29µs
+[2m2024-10-24T13:36:40.039431Z[0m [32m INFO[0m [1mprove_core[0m: generated 1 records    
+[2m2024-10-24T13:36:40.039458Z[0m [32m INFO[0m [1mprove_core[0m: waiting for turn 0    
+[2m2024-10-24T13:36:40.039797Z[0m [32m INFO[0m [1mprove_core[0m: deferred 2 records    
+[2m2024-10-24T13:36:40.039802Z[0m [32m INFO[0m [1mprove_core[0m: collecting checkpoints    
+[2m2024-10-24T13:36:40.039807Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:36:40.039855Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:36:40.039869Z[0m [32m INFO[0m [1mprove_core[0m: fixing shape
+[2m2024-10-24T13:36:40.792854Z[0m [32m INFO[0m [1mprove_core[0m: generated 1 records    
+[2m2024-10-24T13:36:40.792995Z[0m [32m INFO[0m [1mprove_core[0m: deferred 2 records    
+[2m2024-10-24T13:36:54.756589Z[0m [32m INFO[0m [1mprove_core[0m: execution report (totals): total_cycles=122717, total_syscall_cycles=117, touched_memory_addresses=11951
+[2m2024-10-24T13:36:54.756615Z[0m [32m INFO[0m [1mprove_core[0m: execution report (opcode counts):
+[2m2024-10-24T13:36:54.756653Z[0m [32m INFO[0m [1mprove_core[0m:   35837 add
+[2m2024-10-24T13:36:54.756658Z[0m [32m INFO[0m [1mprove_core[0m:   22873 sw
+[2m2024-10-24T13:36:54.756660Z[0m [32m INFO[0m [1mprove_core[0m:   15310 lw
+[2m2024-10-24T13:36:54.756661Z[0m [32m INFO[0m [1mprove_core[0m:   13365 lbu
+[2m2024-10-24T13:36:54.756663Z[0m [32m INFO[0m [1mprove_core[0m:   11006 bne
+[2m2024-10-24T13:36:54.756665Z[0m [32m INFO[0m [1mprove_core[0m:    4923 bltu
+[2m2024-10-24T13:36:54.756666Z[0m [32m INFO[0m [1mprove_core[0m:    4317 sb
+[2m2024-10-24T13:36:54.756668Z[0m [32m INFO[0m [1mprove_core[0m:    4106 xor
+[2m2024-10-24T13:36:54.756669Z[0m [32m INFO[0m [1mprove_core[0m:    2426 and
+[2m2024-10-24T13:36:54.756671Z[0m [32m INFO[0m [1mprove_core[0m:    1912 jalr
+[2m2024-10-24T13:36:54.756673Z[0m [32m INFO[0m [1mprove_core[0m:    1306 beq
+[2m2024-10-24T13:36:54.756675Z[0m [32m INFO[0m [1mprove_core[0m:    1059 or
+[2m2024-10-24T13:36:54.756676Z[0m [32m INFO[0m [1mprove_core[0m:    1009 auipc
+[2m2024-10-24T13:36:54.756678Z[0m [32m INFO[0m [1mprove_core[0m:     691 srl
+[2m2024-10-24T13:36:54.756679Z[0m [32m INFO[0m [1mprove_core[0m:     650 sll
+[2m2024-10-24T13:36:54.756681Z[0m [32m INFO[0m [1mprove_core[0m:     606 sub
+[2m2024-10-24T13:36:54.756683Z[0m [32m INFO[0m [1mprove_core[0m:     602 sltu
+[2m2024-10-24T13:36:54.756684Z[0m [32m INFO[0m [1mprove_core[0m:     200 bgeu
+[2m2024-10-24T13:36:54.756686Z[0m [32m INFO[0m [1mprove_core[0m:     200 jal
+[2m2024-10-24T13:36:54.756687Z[0m [32m INFO[0m [1mprove_core[0m:     117 ecall
+[2m2024-10-24T13:36:54.756689Z[0m [32m INFO[0m [1mprove_core[0m:     102 mul
+[2m2024-10-24T13:36:54.756690Z[0m [32m INFO[0m [1mprove_core[0m:     100 sh
+[2m2024-10-24T13:36:54.756692Z[0m [32m INFO[0m [1mprove_core[0m:       0 sra
+[2m2024-10-24T13:36:54.756693Z[0m [32m INFO[0m [1mprove_core[0m:       0 slt
+[2m2024-10-24T13:36:54.756713Z[0m [32m INFO[0m [1mprove_core[0m:       0 lb
+[2m2024-10-24T13:36:54.756715Z[0m [32m INFO[0m [1mprove_core[0m:       0 lh
+[2m2024-10-24T13:36:54.756716Z[0m [32m INFO[0m [1mprove_core[0m:       0 lhu
+[2m2024-10-24T13:36:54.756718Z[0m [32m INFO[0m [1mprove_core[0m:       0 blt
+[2m2024-10-24T13:36:54.756719Z[0m [32m INFO[0m [1mprove_core[0m:       0 bge
+[2m2024-10-24T13:36:54.756721Z[0m [32m INFO[0m [1mprove_core[0m:       0 ebreak
+[2m2024-10-24T13:36:54.756722Z[0m [32m INFO[0m [1mprove_core[0m:       0 mulh
+[2m2024-10-24T13:36:54.756724Z[0m [32m INFO[0m [1mprove_core[0m:       0 mulhu
+[2m2024-10-24T13:36:54.756726Z[0m [32m INFO[0m [1mprove_core[0m:       0 mulhsu
+[2m2024-10-24T13:36:54.756727Z[0m [32m INFO[0m [1mprove_core[0m:       0 div
+[2m2024-10-24T13:36:54.756729Z[0m [32m INFO[0m [1mprove_core[0m:       0 divu
+[2m2024-10-24T13:36:54.756730Z[0m [32m INFO[0m [1mprove_core[0m:       0 rem
+[2m2024-10-24T13:36:54.756801Z[0m [32m INFO[0m [1mprove_core[0m:       0 remu
+[2m2024-10-24T13:36:54.756806Z[0m [32m INFO[0m [1mprove_core[0m:       0 unimp
+[2m2024-10-24T13:36:54.756808Z[0m [32m INFO[0m [1mprove_core[0m: execution report (syscall counts):
+[2m2024-10-24T13:36:54.756813Z[0m [32m INFO[0m [1mprove_core[0m:   100 keccak_permute
+[2m2024-10-24T13:36:54.756814Z[0m [32m INFO[0m [1mprove_core[0m:     8 commit
+[2m2024-10-24T13:36:54.756831Z[0m [32m INFO[0m [1mprove_core[0m:     8 commit_deferred_proofs
+[2m2024-10-24T13:36:54.756833Z[0m [32m INFO[0m [1mprove_core[0m:     1 halt
+[2m2024-10-24T13:36:54.756835Z[0m [32m INFO[0m [1mprove_core[0m:     0 write
+[2m2024-10-24T13:36:54.756837Z[0m [32m INFO[0m [1mprove_core[0m:     0 enter_unconstrained
+[2m2024-10-24T13:36:54.756839Z[0m [32m INFO[0m [1mprove_core[0m:     0 exit_unconstrained
+[2m2024-10-24T13:36:54.756840Z[0m [32m INFO[0m [1mprove_core[0m:     0 verify_sp1_proof
+[2m2024-10-24T13:36:54.756842Z[0m [32m INFO[0m [1mprove_core[0m:     0 hint_len
+[2m2024-10-24T13:36:54.756844Z[0m [32m INFO[0m [1mprove_core[0m:     0 hint_read
+[2m2024-10-24T13:36:54.756845Z[0m [32m INFO[0m [1mprove_core[0m:     0 ed_decompress
+[2m2024-10-24T13:36:54.756847Z[0m [32m INFO[0m [1mprove_core[0m:     0 secp256k1_double
+[2m2024-10-24T13:36:54.756849Z[0m [32m INFO[0m [1mprove_core[0m:     0 secp256k1_decompress
+[2m2024-10-24T13:36:54.756851Z[0m [32m INFO[0m [1mprove_core[0m:     0 bn254_double
+[2m2024-10-24T13:36:54.756852Z[0m [32m INFO[0m [1mprove_core[0m:     0 bls12381_decompress
+[2m2024-10-24T13:36:54.756854Z[0m [32m INFO[0m [1mprove_core[0m:     0 bls12381_double
+[2m2024-10-24T13:36:54.756856Z[0m [32m INFO[0m [1mprove_core[0m:     0 sha_compress
+[2m2024-10-24T13:36:54.756857Z[0m [32m INFO[0m [1mprove_core[0m:     0 ed_add
+[2m2024-10-24T13:36:54.756859Z[0m [32m INFO[0m [1mprove_core[0m:     0 secp256k1_add
+[2m2024-10-24T13:36:54.756860Z[0m [32m INFO[0m [1mprove_core[0m:     0 bn254_add
+[2m2024-10-24T13:36:54.756862Z[0m [32m INFO[0m [1mprove_core[0m:     0 uint256_mul
+[2m2024-10-24T13:36:54.756863Z[0m [32m INFO[0m [1mprove_core[0m:     0 bls12381_add
+[2m2024-10-24T13:36:54.756904Z[0m [32m INFO[0m [1mprove_core[0m:     0 bls12381_fp_add
+[2m2024-10-24T13:36:54.756908Z[0m [32m INFO[0m [1mprove_core[0m:     0 bls12381_fp_sub
+[2m2024-10-24T13:36:54.756910Z[0m [32m INFO[0m [1mprove_core[0m:     0 bls12381_fp_mul
+[2m2024-10-24T13:36:54.756912Z[0m [32m INFO[0m [1mprove_core[0m:     0 bls12381_fp2_add
+[2m2024-10-24T13:36:54.756914Z[0m [32m INFO[0m [1mprove_core[0m:     0 bls12381_fp2_sub
+[2m2024-10-24T13:36:54.756916Z[0m [32m INFO[0m [1mprove_core[0m:     0 bls12381_fp2_mul
+[2m2024-10-24T13:36:54.756918Z[0m [32m INFO[0m [1mprove_core[0m:     0 bn254_fp_add
+[2m2024-10-24T13:36:54.756919Z[0m [32m INFO[0m [1mprove_core[0m:     0 bn254_fp_sub
+[2m2024-10-24T13:36:54.756921Z[0m [32m INFO[0m [1mprove_core[0m:     0 bn254_fp_mul
+[2m2024-10-24T13:36:54.756923Z[0m [32m INFO[0m [1mprove_core[0m:     0 bn254_fp2_add
+[2m2024-10-24T13:36:54.756925Z[0m [32m INFO[0m [1mprove_core[0m:     0 bn254_fp2_sub
+[2m2024-10-24T13:36:54.756927Z[0m [32m INFO[0m [1mprove_core[0m:     0 bn254_fp2_mul
+[2m2024-10-24T13:36:54.756928Z[0m [32m INFO[0m [1mprove_core[0m:     0 sha_extend
+[2m2024-10-24T13:36:55.097347Z[0m [32m INFO[0m [1mprove_core[0m: summary: cycles=122717, gas=195375, e2e=14.787020959s, khz=8.30, proofSize=5466801
+[2m2024-10-24T13:36:55.108279Z[0m [32m INFO[0m [1mprove_core[0m: close [3mtime.busy[0m[2m=[0m15.0s [3mtime.idle[0m[2m=[0m173ms
+Successfully generated proof!
+[2m2024-10-24T13:36:55.628838Z[0m [32m INFO[0m [1mverify[0m: close [3mtime.busy[0m[2m=[0m519ms [3mtime.idle[0m[2m=[0m1.58µs
+Successfully verified proof!
+[1m[7m%[27m[1m[0m                                                                                                                                     ]2;flyingnobita@Jan-MacBook-Pro:~/Data/Project/zk/succinctlabs/sp1-keccak-compare/script]1;..ompare/script]7;file://Jan-MacBook-Pro.local/Users/flyingnobita/Data/Project/zk/succinctlabs/sp1-keccak-compare/script\[0m[27m[24m[J[0m[38;5;238m[49m[39m
+
+[A[38;5;238m╭─[0m[38;5;238m[48;5;234m[38;5;31m [1m[38;5;31m[48;5;234m[38;5;39m~[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/Data/Project/zk/succinctlabs/[1m[38;5;31m[48;5;234m[38;5;39msp1-keccak-compare[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m/[1m[38;5;31m[48;5;234m[38;5;39mscript[0m[38;5;39m[48;5;234m[48;5;234m[38;5;31m[0m[38;5;31m[48;5;234m[48;5;234m[38;5;31m [0m[38;5;31m[48;5;234m[48;5;234m[38;5;242m[0m[38;5;242m[48;5;234m[48;5;234m[38;5;178m [38;5;76mmain [38;5;178m!3[0m[38;5;178m[48;5;234m[48;5;234m[38;5;178m [0m[38;5;178m[48;5;234m[49m[38;5;234m[0m[38;5;234m[49m[39m                                                 [0m[49m[38;5;234m[0m[38;5;234m[48;5;234m[38;5;70m [0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m✔[0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m [0m[38;5;70m[48;5;234m[48;5;234m[38;5;70m[0m[38;5;70m[48;5;234m[48;5;234m[38;5;248m[38;5;242m[0m[38;5;242m[48;5;234m[48;5;234m[38;5;248m 18s[0m[38;5;248m[48;5;234m[48;5;234m[38;5;248m[0m[38;5;248m[48;5;234m[48;5;234m[38;5;248m [0m[38;5;248m[48;5;234m[49m[39m[38;5;238m─╮
+[38;5;238m╰─[0m[38;5;238m[49m[39m[0m[49m[39m [0m[49m[39m[K[127C[0m[49m[39m[38;5;238m─╯[39m[129D[?1h=[?2004h`[1m[31m`[0m[39m

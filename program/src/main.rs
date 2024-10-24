@@ -39,7 +39,9 @@ fn test_keccak_without_precompile() {
 }
 
 pub fn main() {
-    // test_keccak_with_precompile(); // Number of cycles: 5775
+    for _ in 0..100 {
+        test_keccak_with_precompile();
 
-    test_keccak_without_precompile(); // Number of cycles: 21312
+        // test_keccak_without_precompile();
+    }
 }
